@@ -1,0 +1,194 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+/*LE TABLEAU*/
+#tableau{
+	width:25vw;
+	display: block;
+	border: 2px solid black;
+	margin: 20px;
+
+}
+#ligne1{
+	display:flex;
+	height:10%;
+	width:100%;
+}
+#case{
+	height:100%;
+	width:15%;
+	text-align: center;
+	line-height: 280%;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+
+}
+#machine{
+	height:100%;
+	width:45%;
+	text-align: center;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	line-height: 280%;
+}
+#x{
+	height:100%;
+	width:20%;
+	text-align: center;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	line-height: 280%;
+}
+#y{
+	height:100%;
+	width:20%;
+	text-align: center;
+	border-bottom: 2px solid black;
+	line-height: 280%;
+}
+.ligne{
+	display:flex;
+	height:50px;
+	width:100%;
+}
+
+.col1{
+	height:100%;
+	width:15%;
+	text-align: center;
+	line-height: 280%;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+
+}
+
+.col2{
+	height:50px;
+	width:45%;
+	text-align: center;
+	line-height: 280%;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+}
+.col3{
+	height:50px;
+	width:20%;
+	text-align: center;
+	line-height: 280%;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+}
+.col3 input{
+	width:80%;
+	height:80%;
+	outline: none;
+
+	border:none;
+}
+.col4{
+	height:50px;
+	width:20%;
+	text-align: center;
+	line-height: 280%;
+	border-bottom: 2px solid black;
+}
+.col4 input{
+	width:80%;
+	height:80%;
+	outline: none;
+
+	border:none;
+}
+
+/*LES CARTES*/
+
+
+#contenairesEq{
+	display: flex;
+	margin-left:60px;
+}
+.contenaireEquation{
+
+    border : 3px solid #2ecc71;
+    width: 120px;
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 20px;
+}
+.equationUne {
+	height:100%;
+	width: 100%;
+	border-radius: 3px;
+	display: block;
+
+}
+
+.equationUne p {
+    text-align: center;
+    color : white;
+
+
+}
+
+.equationDeux {
+    border-radius: 3px;
+	height:100%;
+	width: 100%;
+	display: block;
+}
+
+.equationDeux p {
+    text-align: center;
+    color : white;
+}
+
+.carte:focus {
+    outline:0;
+}
+
+.carte {
+    margin-left: 5px;
+}
+
+#contenairePackets{
+	margin-left: 200px;
+	display: flex;
+	margin-top:200px;
+}
+
+.packetDeCartes  {
+    width: 120px;
+    border-radius: 5px;
+    height: 50px;
+    background: #2ecc71;
+    border : 3px solid #2ecc71;
+    margin-top: 50px;
+}
+
+#ecranBas{
+	display: flex;
+	height:50vh;
+}
+
+#screen{
+	height:100%;
+	width:30vw;
+	border:1px solid black;
+	margin:10px;
+}
+
+#contenairePacketDetruit{
+	margin-left:150px;
+}
+
+.packetDetruit {
+    width: 120px;
+    border-radius: 5px;
+    height: 50px;
+    background: white;
+    border : 3px solid #e74c3c;
+    margin-top: 50px;
+
+}

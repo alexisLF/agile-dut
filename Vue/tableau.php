@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>HEX</title>
+        <link rel="stylesheet" type="text/css" href="<?php echo DEB_URL.POSITION_TABLEAU_CSS; ?>">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="<?php echo DEB_URL.POSITION_JQUERY_CSS; ?>" rel="stylesheet">
+    </head>
+
+    <body>
+       <div id="tableau">
+           <div id="ligne1">
+                <div id="case">
+                   CASE
+                </div>
+                <div id="machine">
+                   MACHINE
+                </div>
+                <div id="x">
+                   X
+               </div>
+                <div id="y">
+                   Y
+               </div> 
+           </div>
+            <div class="ligne 1">
+                <div class="col1">
+                   
+                </div>
+                <div class="col2">
+                   
+                </div>
+                <div class="col3">
+
+                    <input type="text" name="x">
+                   
+               </div>
+                <div class="col4">
+                   <input type="text" name="y">
+                   
+               </div> 
+           </div>
+            <div class="ligne 2">
+                <div class="col1">
+                   
+                </div>
+                <div class="col2">
+                   
+                </div>
+                <div class="col3">
+
+                    <input type="text" name="x">
+                   
+               </div>
+                <div class="col4">
+                   <input type="text" name="y">
+                   
+               </div> 
+           </div>
+            <div class="ligne 3">
+                <div class="col1">
+                   
+                </div>
+                <div class="col2">
+                   
+                </div>
+                <div class="col3">
+
+                    <input type="text" name="x">
+                   
+               </div>
+                <div class="col4">
+                   <input type="text" name="y">
+                   
+               </div> 
+           </div>
+            <div class="ligne 4">
+                <div class="col1">
+                   
+                </div>
+                <div class="col2">
+                   
+                </div>
+                <div class="col3">
+
+                    <input type="text" name="x">
+                   
+               </div>
+                <div class="col4">
+                   <input type="text" name="y">
+                   
+               </div> 
+           </div>
+       </div>
+
+<!-- LES CARTES -->
+<div id="contenairesEq">
+    
+    <div class="contenaireEquation">
+        <div class="equationUne" style="border:1px solid #2ECC71">
+            <p id="equationUne"></p>
+        </div>
+    </div>
+    <div class="contenaireEquation">
+        <div class="equationDeux" style="border:1px solid #2ECC71">
+            <p id="equationDeux"></p>
+        </div>
+    </div>
+
+</div>
+
+<div id="ecranBas">
+    
+    <div id="screen">
+        
+    </div>
+
+    <div id="contenairePackets">
+    <div>
+        <div class="packetDeCartes" onclick="cliqueSurLaCarte()"></div>
+        <p id="nbrCartesPacket">12</p>
+    </div>
+    <div id="contenairePacketDetruit">
+        <div class="packetDetruit"></div>
+        <p id="nbrCartesDetruites">0</p>
+    </div> 
+
+</div>
+
+
+     <script src="<?php echo DEB_URL.POSITION_CARTE_JS; ?>"> </script>
+     <script src="<?php echo DEB_URL.POSITION_JQUERY_JS; ?>"> </script>
+        
+    </body>
+</html>

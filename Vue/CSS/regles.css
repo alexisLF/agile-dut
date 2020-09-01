@@ -1,0 +1,14 @@
+
+body {
+ background-color: white; 
+ font-family: Arial, sans-serif; 
+ font-size: 100%;
+ }
+ 
+h1 {
+ background-color: white; 
+ font-family: Arial, sans-serif; 
+ font-size: 200%;
+ font-weight: bold;
+ text-align: center;
+}

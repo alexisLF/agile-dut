@@ -1,0 +1,141 @@
+#connexionDiv {
+	width : 20%;
+	margin : auto;
+}
+#titreConnexion {
+	text-align: center;
+	text-decoration: bold;
+}
+
+.titreDuJeu {
+	background-color: #ecf0f1;
+	color : #2c3e50;
+	width: 70%;
+	padding: 20px;
+	margin : auto;
+	margin-top: 20px;
+	border-radius: 15px;
+	-webkit-box-shadow: 10px 10px 73px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 73px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 73px 0px rgba(0,0,0,0.75);
+	margin-bottom: 60px;
+}
+
+.introRegles {
+	background-color: #ecf0f1;
+	width: 70%;
+	padding: 20px;
+	margin : auto;
+	margin-bottom: 30px;
+	-webkit-box-shadow: 10px 10px 73px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 73px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 73px 0px rgba(0,0,0,0.75);
+}
+
+.regles {
+	background-color: #ecf0f1;
+	width: 70%;
+	padding: 20px;
+	margin : auto;
+	-webkit-box-shadow: 10px 10px 73px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 73px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 73px 0px rgba(0,0,0,0.75);
+}
+
+body {
+ 	background-color: #34495e; 
+ 	font-family: Arial, sans-serif; 
+ 	font-size: 100%;
+ }
+ 
+h1 {
+	font-size: 70px;
+	color : white;
+	text-decoration: bold;
+	text-align: center;
+	font-family: 'Ceviche One', cursive;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+}
+
+body {
+	color: #2c3e50;
+}
+
+.index {
+}
+
+.retourAccueil {
+	background-color: #ecf0f1;
+	color : #2c3e50;
+	width: 150px;
+	height: 40px;
+	padding-top : 10px;
+	border-radius: 15px;
+	-webkit-box-shadow: 10px 10px 51px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 51px -11px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 51px -11px rgba(0,0,0,0.75);
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: -130px;
+}
+
+.retourAccueil:active {
+	-webkit-box-shadow: 10px 10px 51px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 51px -14px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 51px -14px rgba(0,0,0,0.75);
+}
+
+.retourAccueil a {
+	font-size: 15px;
+	color: #2c3e50;
+	margin-left: 40px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.boutonMenu {
+	text-align: center;
+	background-color: #3498db ;
+    border-radius: 10px;
+    -webkit-box-shadow: 6px 9px 35px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 9px 35px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 9px 35px 0px rgba(0,0,0,0.75);
+	margin:auto;
+	height: 45px;
+	margin-bottom: 100px;
+	width: 50%;
+}
+
+.boutonMenu a {
+	line-height: 190%;
+	font-size: 23px;
+	text-decoration: none;
+}
+.boutonMenu a:visited {
+	text-decoration: none;
+	color:white;
+}
+
+.boutonMenu:hover {
+	width: 53%;
+	transition: width 300ms;
+}
+
+.menu {
+	list-style: none;
+	width: 40%;
+	height: 60vh;
+	margin : auto;
+}
+
+.inscription{
+	list-style: none;
+	width: 40%;
+	height: 60vh;
+	margin : auto;
+	padding-top:20%
+}
